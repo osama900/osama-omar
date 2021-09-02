@@ -29,7 +29,7 @@ import {
   Container,
   Row,
   Col,
-  UncontrolledTooltip
+  UncontrolledTooltip,
 } from "reactstrap";
 import landing from "assets/img/theme/landing.jpg";
 import profile from "assets/img/theme/profile.jpg";
@@ -40,28 +40,7 @@ class CardsFooter extends React.Component {
       <>
         <footer className="footer has-cards">
           <Container className="container-lg">
-            <Row>
-              <Col className="mb-5 mb-md-0" md="6">
-                <Card className="card-lift--hover shadow border-0">
-                  <Link to="/landing-page">
-                    <CardImg
-                      alt="..."
-                      src={landing}
-                    />
-                  </Link>
-                </Card>
-              </Col>
-              <Col className="mb-5 mb-lg-0" md="6">
-                <Card className="card-lift--hover shadow border-0">
-                  <Link to="/profile-page">
-                    <CardImg
-                      alt="..."
-                      src={profile}
-                    />
-                  </Link>
-                </Card>
-              </Col>
-            </Row>
+            <Row></Row>
           </Container>
           <Container>
             <Row className="row-grid align-items-center my-md">
@@ -119,7 +98,7 @@ class CardsFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/creativetimofficial"
+                  href="https://github.com/osama900"
                   id="tooltip495507257"
                   target="_blank"
                 >
@@ -136,14 +115,7 @@ class CardsFooter extends React.Component {
             <Row className="align-items-center justify-content-md-between">
               <Col md="6">
                 <div className="copyright">
-                  © {new Date().getFullYear()}{" "}
-                  <a
-                    href="https://www.creative-tim.com?ref=adsr-footer"
-                    target="_blank"
-                  >
-                    Creative Tim
-                  </a>
-                  .
+                  © {new Date().getFullYear()} <a href="#">OSAMA OMAR</a>
                 </div>
               </Col>
               <Col md="6">
@@ -153,7 +125,7 @@ class CardsFooter extends React.Component {
                       href="https://www.creative-tim.com?ref=adsr-footer"
                       target="_blank"
                     >
-                      Creative Tim
+                      OSAMA OMAR
                     </NavLink>
                   </NavItem>
                   <NavItem>
